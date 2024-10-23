@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PredatorCoin - Mine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mining Machine</h1>
+    </header>
+
+    <div class="mine-container">
+        <img src="assets/mine-machine.png" alt="Mining Machine" id="mine-machine">
+        <button onclick="startMining()">Start Mining</button>
+        <p id="next-mine">Next mine available in: <span id="mine-timer">6 hours</span></p>
+    </div>
+
+    <script src="firebase-config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
